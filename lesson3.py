@@ -10,5 +10,13 @@ k = y_diff / x_diff
 b = y2 - k * x2
 print("Уравнение прямой, проходящей через эти точки:")
 print("y = ", k, " * x + ", b)
-print("y = ", k, " * x + ", b)
+def count_number_len(x):
+  count = 0
+  while x:
+    count += 1
+    x //= 10
+  return count
+x = 1234
+print(count_number_len(x))
+
 
