@@ -16,11 +16,11 @@ def count_number_len(x):
     count += 1
     x //= 10
   return count
-x = 1234
+x = 123445
 print(count_number_len(x))
 y = 6
 z = y - 5
-c = z**2
+c = z**3
 
 
 
