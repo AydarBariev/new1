@@ -20,6 +20,7 @@ x = 1234
 print(count_number_len(x))
 y = 6
 z = y - 5
+c = z**2
 
 
 
