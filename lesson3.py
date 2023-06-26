@@ -18,5 +18,7 @@ def count_number_len(x):
   return count
 x = 1234
 print(count_number_len(x))
+y = 4
+
 
 
